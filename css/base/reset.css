@@ -1,0 +1,48 @@
+:root {
+  scroll-behavior: smooth;
+  /* Main Text Colors */
+  --primary-text: #1D2130;
+  --secondary-text: #525560;
+  /* Green used in pages */
+  --green-primary: #70C174;
+  --green-secondary: #BEF3C0;
+  --green-tertiary: #EFF7F2;
+  /* Header height */
+  --header-height: 67px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 'Roboto';
+}
+
+ul {
+  list-style-type: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+
