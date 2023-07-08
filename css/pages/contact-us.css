@@ -1,1 +1,37 @@
 @import "../base/global.css";
+#header {
+  padding: 20px 0px;
+}
+.navbar__contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__items {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.header__align-item .header-link {
+  color: var(--secondary-text, #525560);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header__align-item .header-link:hover {
+  color: var(--black, #0b0706);
+}
+.header-btn {
+  padding: 12px 32px;
+  border-radius: 4px;
+  background: var(--primary-text, #1d2130);
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
