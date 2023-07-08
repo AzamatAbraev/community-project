@@ -1,1 +1,35 @@
 @import "../base/global.css";
+
+main {
+  margin-top: 67px;
+}
+
+.home {
+  background-image: url(../../images/home/home-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home__title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.play-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 16px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  transition: 0.5s;
+}
+
+.play-btn:hover {
+  border: 1px solid #fff;
+}
