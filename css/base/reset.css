@@ -1,14 +1,16 @@
 :root {
   scroll-behavior: smooth;
+
   /* Main Text Colors */
   --primary-text: #1D2130;
   --secondary-text: #525560;
+  --black: #0B0706;
   /* Green used in pages */
   --green-primary: #70C174;
   --green-secondary: #BEF3C0;
   --green-tertiary: #EFF7F2;
   /* Header height */
-  --header-height: 67px;
+  --header-height: 75px;
 }
 
 

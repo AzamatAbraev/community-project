@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="../css/layout/header.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container nav__container">
+          <div class="nav__logo">
+            <a href="../index.html">
+              <img src="../images/header/Logo.svg" alt="Logo" />
+            </a>
+          </div>
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="../index.html" class="nav__link"> Home </a>
+              </li>
+              <li class="nav__item">
+                <a href="../about-us.html" class="nav__link"> About us </a>
+              </li>
+              <li class="nav__item">
+                <a href="../what-we-do.html" class="nav__link"> What We Do </a>
+              </li>
+              <li class="nav__item">
+                <a href="../media.html" class="nav__link"> Media </a>
+              </li>
+              <li class="nav__item">
+                <a href="../contact-us.html" class="nav__link"> Contact </a>
+              </li>
+              <li class="nav__item">
+                <button onclick='location.href="../donation.html"' class="btn btn-black">Donate</button>
+              </li>
+            </ul>
+          </div>
+          <div class="hamburger" id="navbar-open">
+            <button class="hamburger__btn">
+              <img src="../images/header/menu.svg" alt="Menu" />
+            </button>
+          </div>
+          <div id="navbar-responsive">
+            <ul class="res-nav-list">
+              <li class="res-nav-item">
+                <a href="../index.html" class="res-nav-link"> Home</a>
+              </li>
+              <li class="res-nav-item">
+                <a href="../about-us.html" class="res-nav-link">About Us</a>
+              </li>
+              <li class="res-nav-item">
+                <a href="../what-we-do.html" class="res-nav-link">What We Do</a>
+              </li>
+              <li class="res-nav-item">
+                <a href="../media.html" class="res-nav-link">Media</a>
+              </li>
+              <li class="res-nav-item">
+                <a href="../contact-us.html" class="res-nav-link"> Contact </a>
+              </li>
+              <li class="res-nav-item">
+                <button onclick='location.href="../donation.html"' class="btn btn-black">Donate</button>
+              </li>
+            </ul>
+            <button id="navbar-close">
+              <img src="../images/header/close.svg" alt="Close" />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="../JS/main.js"></script>
+  </body>
+</html>
