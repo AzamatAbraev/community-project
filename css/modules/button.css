@@ -34,8 +34,12 @@
 .btn-black {
   color: #fff;
   background-color: var(--primary-text);
-  border: 1px solid var(--primary-text);
 }
+
+.all-events button {
+  background: none;
+}
+
 
 .btn-black:hover {
   color: var(--primary-text);
