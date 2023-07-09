@@ -1,1 +1,176 @@
 @import "../base/global.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 96px;
+}
+
+
+.read-news {
+  margin-top: 80px;
+}
+
+
+.news {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.news-text h2 {
+  color: var(--primary-text, #1D2130);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.news-text p {
+  width: 450px;
+  text-align: center;
+  color: var(--secondary-text, #525560);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.all-news{
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-news > div >div {
+  width: 302px;
+  height: 328px;
+}
+.all-news > div >div> h4 {
+  margin-top:16px;
+  margin-bottom:8px;
+  color: var(--black, #1C1D28);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.all-news >div > div > p {
+  color: var(--secondary-text, #525560);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+
+.all-events {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.event-text {
+  display:flex;
+  align-items: center;
+  gap:24px;
+  margin-bottom: 48px;
+}
+
+.event-1,.event-2 {
+  width: 628px;
+  padding: 20px;
+  height: 191px;
+  border-radius: 8px;
+  background: var(--green-secondary, #BEF3C0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.event-date {
+  max-width: 55px;
+  height: 77px;
+}
+
+.event-date h3 {
+  width: 100%;
+  color: var(--primary-text, #1D2130);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  font-variant: small-caps;
+}
+
+.event-date p {
+  width: 100%;
+  color: var(--primary-text, #1D2130);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.next-events {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.events-next {
+  max-width: 381px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.events-next div {
+  max-width: 381px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  gap: 23px;
+}
+
+.events-next h3 {
+  width: 100%;
+  color: var(--primary-text, #1D2130);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.event-btn {
+  width: 56px;
+  height: 56px;
+}
+
+
+
+
+

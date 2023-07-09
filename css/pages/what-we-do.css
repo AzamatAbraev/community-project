@@ -10,6 +10,10 @@ body {
   row-gap: 96px;
 }
 
+.header-body {
+  margin-top: 163px;
+}
+
 
 .header--container {
   display: flex;
@@ -18,7 +22,7 @@ body {
 
 
 .header--left {
-  width: 600px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   gap: 34px;
@@ -57,7 +61,7 @@ main {
 }
 
 .features {
-  width: 1280px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -77,7 +81,7 @@ main {
 }
 
 .feature {
-  width: 384px;
+  max-width: 384px;
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -113,7 +117,7 @@ main {
 
 
 .projects-body {
-  width: 1280px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -164,7 +168,7 @@ main {
   line-height: 150%;
 }
 
-.project-1 p {
+.project-1 p,.project-2 p,.project-3 p {
   color: #FFF;
   width: 305px;
   font-family: Roboto;
@@ -200,16 +204,6 @@ main {
   line-height: 150%;
 }
 
-.project-2 p {
-  color: #FFF;
-  width: 305px;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
-  margin-bottom: 64px;
-}
 
 
 
@@ -218,7 +212,7 @@ main {
   width:411px;
   height:421px;
   border-radius: 12px;
-  background: url(../../images/what-we-do/);
+  background: url(../../images/what-we-do/project-back-3.svg );
 }
 
 .project-3 {
@@ -239,16 +233,6 @@ main {
   line-height: 150%;
 }
 
-.project-3 p {
-  color: #FFF;
-  width: 305px;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
-  margin-bottom: 64px;
-}
 
 
 
@@ -267,6 +251,7 @@ main {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 12px;
   background: url(../../images/what-we-do/cta-back.svg);
 }
 
@@ -277,6 +262,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 12px;
   justify-content: center;
   row-gap: 32px;
   background: url(../../images/what-we-do/cta-back-vlack.svg);
@@ -296,19 +282,6 @@ main {
   gap: 32px;
 }
 
-.join-btn,.donate-btn {
-  padding: 16px 32px;
-  background-color: white;
-  border-radius: 4px;
-}
-
-.join-btn:hover,.donate-btn:hover {
-  background-color:#70C174 ;
-  color: white;
-  transition: 0.3s;
-}
-
-
 
 
 
@@ -324,6 +297,7 @@ main {
 }
 
 .news-text {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -342,11 +316,11 @@ main {
   justify-content: space-between;
 }
 
-.all-news > div {
+.all-news > div >div {
   width: 302px;
   height: 328px;
 }
-.all-news > div > h4 {
+.all-news > div >div> h4 {
   margin-top:16px;
   margin-bottom:8px;
   color: var(--black, #1C1D28);
@@ -354,11 +328,16 @@ main {
   font-weight: 500;
   line-height: 150%;
 }
-.all-news > div > p {
+.all-news >div > div > p {
   color: var(--secondary-text, #525560);
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
+}
+
+.all-events {
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -366,6 +345,80 @@ main {
   display:flex;
   align-items: center;
   gap:24px;
+  margin-bottom: 48px;
+}
+
+.event-1,.event-2 {
+  width: 628px;
+  padding: 20px;
+  height: 191px;
+  border-radius: 8px;
+  background: var(--green-secondary, #BEF3C0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.event-date {
+  max-width: 55px;
+  height: 77px;
+}
+
+.event-date h3 {
+  width: 100%;
+  color: var(--primary-text, #1D2130);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  font-variant: small-caps;
+}
+
+.event-date p {
+  width: 100%;
+  color: var(--primary-text, #1D2130);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.next-events {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.events-next {
+  max-width: 381px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.events-next div {
+  max-width: 381px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  gap: 23px;
+}
+
+.events-next h3 {
+  width: 100%;
+  color: var(--primary-text, #1D2130);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.event-btn {
+  width: 56px;
+  height: 56px;
 }
 
 
@@ -373,6 +426,162 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1300px) {
+  .all-projects {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .news-text img,.event-text img {
+    width: 800px;
+  }
+
+  .all-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+  }
+
+  .news-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .all-events {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width:1100px) {
+  .what--features {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .features {
+    padding: 20px;
+  }
+
+
+  .news-text img,.event-text img {
+    width: 600px;
+  }
+  
+}
+
+@media (max-width:950px) {
+  .header--container{
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .news-text img,.event-text img {
+    width: 500px;
+  }
+}
+
+@media (max-width:800px){
+  .news-text img,.event-text img {
+    width: 400px;
+    height: 2px;
+  }
+}
+
+@media (max-width:700px){
+  .news-text img,.event-text img {
+    width: 300px;
+    height: 2px;
+  }
+
+  .all-news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .all-events>div {
+    padding: 10px;
+    width: 520px;
+    justify-content: space-between;
+  }
+
+  .next-events {
+    width: 350px;
+  }
+}
+
+@media (max-width:600px){
+  .header--right img {
+    width: 100%;
+  }
+
+  .feature img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .cta-join div button {
+    padding: 8px 14px;
+  }
+
+  .news-text img ,.event-text img{
+    display: none;
+  }
+
+  .all-events>div {
+    padding: 10px;
+    width: 300px;
+    justify-content: space-between;
+  }
+
+  .all-projects > div {
+    width:250px;
+    height: 260px;
+  }
+  .all-projects > div>div {
+    width:250px;
+    height: 260px;
+  }
+
+  .project-1 h3 ,.project-2 h3 , .project-3 h3 {
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+  }
+
+  .project-1 p ,.project-2 p , .project-3 p {
+    width: 150px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 15px;
+  }
+
+
+  .project-1 button ,.project-2 button , .project-3 button {
+    padding: 8px 16px;
+  }
+
+
+
+}
 
 
 
