@@ -60,6 +60,10 @@ main {
   margin-left: 128px;
 }
 
+.blog__img {
+  width: 100%;
+}
+
 @media (max-width: 800px) {
   .main-img {
     width: 700px;
