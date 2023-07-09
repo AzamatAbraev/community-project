@@ -34,10 +34,7 @@
 .btn-black {
   color: #fff;
   background-color: var(--primary-text);
-}
-
-.all-events button {
-  background: none;
+  border: 1px solid var(--primary-text);
 }
 
 
