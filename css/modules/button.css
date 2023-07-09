@@ -6,19 +6,38 @@
   font-size: 16px;
   font-weight: 500;
   transition: 0.5s;
+  text-align: center;
 }
 
 .btn-green {
   color: #fff;
   background-color: var(--green-primary);
+  border: 1px solid var(--green-primary);
+}
+
+.btn-green:hover {
+  color: var(--green-primary);
+  background-color: #fff;
 }
 
 .btn-white {
   color: var(--primary-text);
   background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-white:hover {
+  color: #fff;
+  background-color: var(--primary-text);
 }
 
 .btn-black {
   color: #fff;
   background-color: var(--primary-text);
+  border: 1px solid var(--primary-text);
+}
+
+.btn-black:hover {
+  color: var(--primary-text);
+  background-color: #fff;
 }
