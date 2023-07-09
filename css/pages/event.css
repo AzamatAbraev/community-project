@@ -1,1 +1,164 @@
 @import "../base/global.css";
+
+main {
+  height: 2096px;
+  width: 100%;
+}
+
+header {
+  background:  #EFF7F2;
+}
+
+.main-div {
+  width: 100%;
+  height: 400px;
+  background:  #EFF7F2;
+}
+
+.main-text {
+  left:  424px;
+  top:  96px;
+  font-size: 56px;
+  position: absolute;
+}
+
+.main-img {
+  left: 424px;
+  top: 279px;
+  position: absolute;
+}
+
+.main-text-1 {
+  left: 451px;
+  top: 283px;
+  position: absolute;
+  font-size: 16px;
+  color: #1D2130;
+}
+
+.main-img-1 {
+  left: 792px;
+  top: 279px;
+  position: absolute;
+}
+
+.main-text-2 {
+  left: 822px;
+  top: 283px;
+  position: absolute;
+}
+
+.main-text-3 {
+  left: 404px;
+  top: 496px;
+  position: absolute;
+}
+
+.main-text-4 {
+  display: flex;
+width: 768px;
+flex-direction: column;
+flex-shrink: 0;
+color:  #525560;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+top: 586px;
+left: 404px;
+position: absolute;
+}
+
+.img-3 {
+  width: 700px;
+  left: 404px;
+  top: 878px;
+  position: absolute;
+}
+
+.main-text-5 {
+  left: 404px;
+  top: 1230px;
+  position: absolute;
+  display: flex;
+  width: 768px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color:  #525560;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.main-text-6 {
+  left: 404px;
+  top: 1430px;
+  position: absolute;
+}
+
+.main-div-2 {
+  width: 700px;
+height: 191px;
+flex-shrink: 0;
+border-radius: 8px;
+background:  #BEF3C0;
+position: absolute;
+left: 404px;
+top: 1538px;
+}
+
+.div-2-text-1 {
+  left: 40px;
+  top: 32px;
+  position: absolute;
+  color:  #1D2130;
+  font-size: 48px;
+}
+
+.div-2-text-2 {
+  left: 40px;
+  top: 90px;
+  position: absolute;
+  color:  #1D2130;
+}
+
+.div-2text-3 {
+  left: 119px;
+  top: 40px;
+  position: absolute;
+  color:  #1D2130;
+}
+
+.div-hr {
+  left: 235px;
+  top: 49px;
+  width: 44px;
+  height: 3px;
+  position: absolute;
+  background: #1D2130;
+}
+
+.div-2-text-4 {
+  left: 119px;
+  top: 77px;
+  position: absolute;
+  color:  #1D2130;
+}
+
+.div-2-img {
+  left: 600px;
+  top: 64px;
+  position: absolute;
+}
+
+.main-div-3 {
+  width: 700px;
+  height: 191px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background:  #BEF3C0;
+  position: absolute;
+  left: 404px;
+  top: 1753px;
+}
