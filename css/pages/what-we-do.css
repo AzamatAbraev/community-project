@@ -43,6 +43,117 @@ body {
 }
 
 
+.join-container{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+}
+
+.join {
+  width: 640px;
+  height: 684px;
+  padding: 48px;
+  border-radius: 8px;
+  background:#fff;
+  border: 1px solid #525560;
+}
+
+.join h2 {
+  color: #1D2130;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.join p {
+  color: var(--secondary-text, #525560);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.name {
+  display: flex;
+  gap: 32px;
+}
+
+
+.first-name,.last-name,.email-id{
+  display: flex;
+  flex-direction: column;
+  row-gap:4px;
+}
+
+.email-id {
+  margin: 32px 0;
+}
+
+.join label{
+  color: var(--primary-text, #1D2130);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.first-name input,.last-name input,.email-id input{
+  width: 256px;
+  border: none;
+  height: 34px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.email-id input,.message input {
+  width: 544px;
+}
+
+
+.message input{
+  height: 156px;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.message {
+  margin-bottom: 32px;
+}
+
+
+
+.close-btn {
+  position: fixed;
+  margin-left: 536px;
+  margin-bottom: 638px;
+}
+
+.join-container {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -85,14 +196,16 @@ main {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .feature-1-text {
-  width: 332px;
+  width: 302px;
   display: flex;
   flex-direction: column;
   row-gap: 8px;
 }
+
 
 
 
@@ -543,7 +656,7 @@ main {
 
   .all-events>div {
     padding: 10px;
-    width: 300px;
+    width: 320px;
     justify-content: space-between;
   }
 
@@ -579,9 +692,27 @@ main {
     padding: 8px 16px;
   }
 
-
-
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
 
 
 
