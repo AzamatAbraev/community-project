@@ -1,0 +1,28 @@
+.dark #header {
+  background-color: black;
+  color: white;
+}
+.dark #home {
+  background-color: black;
+  color: white;
+}
+.dark .header__align-item .header-link {
+  color: white;
+}
+.dark .dark .about__name {
+  color: white;
+}
+.dark .about__id {
+  color: white;
+}
+.dark #about {
+  background-color: black;
+  color: white;
+}
+.dark #media {
+  background-image: none;
+  background-color: black;
+}
+.dark .line {
+  color: white;
+}
