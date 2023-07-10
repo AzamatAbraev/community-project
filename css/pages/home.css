@@ -773,6 +773,7 @@ main {
   .event__card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 14px;
   }
 
   .events-card__top img {
