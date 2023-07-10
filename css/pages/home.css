@@ -770,6 +770,10 @@ main {
     align-items: center;
   }
 
+  .home__title {
+    font-size: 44px;
+  }
+
   .event__card {
     display: grid;
     grid-template-columns: 1fr 1fr;
