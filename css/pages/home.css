@@ -750,7 +750,6 @@ main {
 }
 
 .event-btn__img {
-  width: 100%;
   vertical-align: middle;
 }
 
@@ -770,6 +769,15 @@ main {
   .join__buttons, .home__buttons {
     flex-direction: column;
     align-items: center;
+  }
+
+  .events__desc {
+    max-width: 201px;
+    font-size: 24px;
+  }
+
+  .event__date {
+    font-size: 14px;
   }
 }
 
