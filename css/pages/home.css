@@ -741,7 +741,6 @@ main {
   font-size: 28px;
   font-weight: 700;
   line-height: 150%;
-  max-width: 381px;
 }
 
 .event-btn {
@@ -771,14 +770,19 @@ main {
     align-items: center;
   }
 
-  .events__desc {
-    max-width: 201px;
-    font-size: 24px;
+  .event__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .event__date {
-    font-size: 14px;
+  .events-card__top img {
+    display: none;
   }
+
+  .events-btn__img {
+    text-align: right;
+  }
+
 }
 
 @media (max-width: 900px) {
